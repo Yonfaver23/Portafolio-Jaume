@@ -1,0 +1,66 @@
+.hero2 {
+  gap: 16px;
+  font: var(--body1);
+  color: var(--purpe);
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  gap: 20px;
+  /* border: 1px solid red; */
+}
+.hero2 img {
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  /* max-height: 197px;
+  max-width: 328px; */
+
+  flex: 1;
+}
+
+.testimony-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+.bot-media {
+  display: flex;
+  flex-direction: column;
+}
+.img-hero2.iphone img {
+  /* border: 2px solid red; */
+  height: 536px;
+  width: 302px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero2 {
+    display: flex;
+    align-items: center;
+  }
+
+  .img-hero2 {
+    max-inline-size: 100%;
+    flex: 1;
+  }
+  .testimony-container {
+    flex: 1;
+  }
+  .bot-media {
+    /* border: 10px solid red; */
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  .wrapper > .hero2:nth-child(3) .img-hero2 {
+    order: 2;
+  }
+  .wrapper > .hero2:nth-child(7) .img-hero2 {
+    order: 2;
+  }
+}

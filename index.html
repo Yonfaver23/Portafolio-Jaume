@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper cabezera">
+      <header class="header">
+        <img src="./icon/logo.svg" />
+        <nav class="navegacion">
+          <ul>
+            <li>
+              <a class="is-active" href="#">Hola</a>
+            </li>
+            <li>
+              <a href="#project">Proyectos</a>
+            </li>
+            <li>
+              <a href="#form">Hablemos</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="button">CURRÍCULUM</button>
+      </header>
+    </div>
+    <div class="wrapper">
+      <section class="hero">
+        <div class="hero-img">
+          <img src="./icon/user.png" width="338" height="330" alt="" />
+        </div>
+        <div class="hero-description">
+          <h1>
+            <span>¡Hola a todos!</span>
+            <span>Soy Jaume</span>
+          </h1>
+          <p>
+            Frontend Developer que le encanta implementar diseños que inspiran y
+            atraen a las personas.
+          </p>
+
+          <div class="social">
+            <a class="button-icon" href="tel:3208564296">
+              <img src="./icon/icon-phone.svg"
+            /></a>
+            <a class="button-icon" href="tel:3208564296">
+              <img src="./icon/icon-twitter_squared.svg"
+            /></a>
+            <a class="button-icon" href="tel:3208564296">
+              <img src="./icon/icon-instagram.svg"
+            /></a>
+            <a class="button-icon" href="tel:3208564296"
+              ><img src="./icon/icon-important_mail.svg"
+            /></a>
+          </div>
+          <a href="" class="button"> Descargar Curriculon </a>
+        </div>
+      </section>
+      <div id="project" class="testimonio">
+        <p>
+          A lo largo de mi carrera como Frontend, he tenido <br />el privilegio
+          de trabajar en proyectos retadores e increíbles
+        </p>
+        <h2>Aquí hay algunos que me gustaría compartir.</h2>
+        <img src="./icon/arrow-down.svg" alt="" />
+      </div>
+      <section class="hero2">
+        <div class="img-hero2">
+          <img src="./icon/img.png" />
+        </div>
+
+        <div class="testimony-container">
+          <a class="description-testimony-title">MARVOL</a>
+          <p>
+            Es el sitio oficial de Marvol Entertainment. Explore películas,
+            personajes, cómics, programas de televisión, videos y más oficiales
+            de Marvol.
+          </p>
+          <div class="bot-media">
+            <a class="button" href="#">VER PROYECTO</a><br />
+            <a class="button is-secondary" href="#">VER CODIGO</a>
+          </div>
+        </div>
+      </section>
+      <div class="testimonio degradado">
+        <img src="./icon/leonidas.png" />
+        <p>
+          "Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
+          desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
+          meses ".
+        </p>
+        <span>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</span>
+      </div>
+      <section class="hero2">
+        <div class="img-hero2">
+          <img src="./icon/ipad.png" />
+        </div>
+
+        <div class="testimony-container">
+          <a class="description-testimony-title">MARVOL</a>
+          <p>
+            Es el sitio oficial de Marvol Entertainment. Explore películas,
+            personajes, cómics, programas de televisión, videos y más oficiales
+            de Marvol.
+          </p>
+          <div class="bot-media">
+            <a class="button" href="#">VER PROYECTO</a><br />
+            <a class="button is-secondary" href="#">VER CODIGO</a>
+          </div>
+        </div>
+      </section>
+      <div class="testimonio degradado">
+        <img src="./icon/user4.png" />
+        <p>
+          "Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
+          desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
+          meses ".
+        </p>
+        <span>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</span>
+      </div>
+      <section class="hero2">
+        <div class="img-hero2 iphone">
+          <img src="./icon/iphone.png" width="100" height="100" border:"2px
+          solid red"/>
+        </div>
+
+        <div class="testimony-container">
+          <a class="description-testimony-title">NETNET</a>
+          <p>
+            Películas y series ilimitadas y mucho más. Disfruta donde quieras.
+            Cancela cuando quieras.
+          </p>
+          <div class="bot-media">
+            <a class="button" href="#">VER PROYECTO</a><br />
+            <a class="button is-secondary" href="#">VER CODIGO</a>
+          </div>
+        </div>
+      </section>
+      <div class="testimonio degradado">
+        <img src="./icon/user5.png" />
+        <p>
+          "Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
+          desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
+          meses ".
+        </p>
+        <span>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</span>
+      </div>
+
+      <form action="" id="form" class="form">
+        <a class="description-testimony-title title">HABLEMOS</a>
+        <p>
+          Si está interesado en trabajar conmigo en su próximo proyecto, no dude
+          en ponerse en contacto conmigo.
+        </p>
+        <label for="name">Nombre completo*</label>
+        <input id="name" require type="text" placeholder="Juan" />
+        <label for="email">Correo electronico</label>
+        <input id="email" require type="text" placeholder="Email" />
+        <label for="texttarea">mensaje</label>
+        <textarea
+          id="texttarea"
+          require
+          type="text"
+          placeholder="Mensaje"
+        ></textarea>
+        <button type="submit" class="button">ENVIAR MENSAJE</button>
+      </form>
+
+      <footer class="footer">
+        <div class="footer-logo">
+          <img src="./icon/logo.svg" />
+        </div>
+        <div class="social footer">
+          <a class="button-icon" href="tel:3208564296">
+            <img src="./icon/icon-phone.svg"
+          /></a>
+          <a class="button-icon" href="tel:3208564296">
+            <img src="./icon/icon-twitter_squared.svg"
+          /></a>
+          <a class="button-icon" href="tel:3208564296">
+            <img src="./icon/icon-instagram.svg"
+          /></a>
+          <a class="button-icon" href="tel:3208564296"
+            ><img src="./icon/icon-important_mail.svg"
+          /></a>
+        </div>
+        <p>
+          Hecho con el Corazón por Faver Copyright 2021 - Todos los derechos
+          reservados.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

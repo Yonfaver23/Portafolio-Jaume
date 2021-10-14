@@ -1,0 +1,29 @@
+.navegacion {
+  display: none;
+}
+
+.navegacion ul {
+  display: flex;
+  gap: 40px;
+  text-decoration: none;
+  list-style: none;
+}
+.navegacion ul li a {
+  text-decoration: none;
+  color: var(--white);
+  font: var(--button);
+  text-transform: uppercase;
+}
+.navegacion ul li {
+  color: var(--white);
+}
+
+.navegacion ul li a.is-active {
+  color: var(--purpe);
+}
+
+@media screen and (min-width: 768px) {
+  .navegacion {
+    display: block;
+  }
+}
