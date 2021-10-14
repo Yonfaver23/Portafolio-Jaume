@@ -1,0 +1,28 @@
+.footer {
+  text-align: center;
+  font: var(--body1);
+  color: var(--white);
+}
+.social .footer {
+  margin-top: 80px;
+}
+.footer-logo {
+  display: none;
+}
+
+@media screen and (min-width: 678px) {
+  .footer {
+    display: flex;
+    gap: 16px;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-logo {
+    display: block;
+  }
+  .social.footer {
+    /* border: 2px solid rosybrown; */
+    order: 2;
+  }
+}

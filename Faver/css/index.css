@@ -1,0 +1,61 @@
+@import "../css/button.css";
+@import "../css/button-icon.css";
+@import "../css/hero.css";
+@import "../css/wrapper.css";
+@import "../css/navegacion.css";
+@import "../css/testimonio.css";
+@import "../css/hero2.css";
+@import "../css/footer.css";
+@import "../css/form.css";
+
+:root {
+  --gradiente: radial-gradient(
+      41.48% 11.48% at 2.38% 8.52%,
+      #747de9 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+  --font-base: "Poppins", sans-serif;
+  --headline1: bold 95px/154px var(--font-base);
+  --headline2: bold 59px/95px var(--font-base);
+  --headline3: bold 48px/78px var(--font-base);
+  --headline4: bold 34px/55px var(--font-base);
+  --headline5: bold 24px/39px var(--font-base);
+  --body1: 16px/26px var(--font-base);
+  --body2: 14px/23px var(--font-base);
+  --button: bold 14px/23px var(--font-base);
+  --capcation: 12px/19px var(--font-base);
+  --purpe: #310a90;
+  --white: #f9fafa;
+  --green: #42e2b8;
+}
+body {
+  background: var(--gradiente);
+  height: 100%;
+  font: var(--body1);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block-start: 10px;
+
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  /* border: 10px solid red; */
+}
+.cabezera {
+  position: sticky;
+  padding-inline-start: 10px;
+  top: 0;
+  z-index: 2;
+}
+.description-testimony-title {
+  background-color: var(--purpe);
+  color: var(--white);
+  font: var(--headline4);
+  padding: 4px 8px 4px 8px;
+  align-self: flex-start;
+  box-shadow: -4px 4px 0 var(--white);
+}

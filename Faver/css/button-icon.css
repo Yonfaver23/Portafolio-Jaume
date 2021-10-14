@@ -1,0 +1,19 @@
+.button-icon {
+  border-radius: 4px;
+  padding: 10px;
+  border: 2px solid black;
+  background: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-icon img {
+  vertical-align: middle;
+}
+
+section h1 span {
+  display: block;
+}
+.hero-description p {
+  font: var(--body1);
+}

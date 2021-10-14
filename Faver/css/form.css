@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font: var(--body1);
+  max-inline-size: 543px;
+
+  margin: auto;
+  margin-bottom: 90px;
+  margin-top: 120px;
+}
+.form label,
+input {
+  font: var(--button);
+  color: var(--purpe);
+  margin: 0px;
+}
+.form p {
+  font: var(--body1);
+  color: var(--white);
+  text-align: center;
+}
+.form input,
+textarea {
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid #858c94;
+}
+.description-testimony-title.title {
+  align-self: stretch;
+  text-align: center;
+}
